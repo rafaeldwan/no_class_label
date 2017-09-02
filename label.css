@@ -1,0 +1,161 @@
+html {
+  box-sizing: border-box;
+  font: normal 30px helvetica, arial, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  border: 4px solid black;
+  margin-left: 1em;
+  padding: 9px 15px 7px;
+  width: 684px;
+}
+
+h1 {
+  display: block;
+  font: bolder 90px "Franklin Gothic Heavy", helvetica, arial, sans-serif;
+  margin: -20px 0 -13px;
+  text-align: justify;
+}
+
+h3, h4 {
+  border-bottom: 1px solid black;
+  font: bold 25px "Helvetica Black", "Arial Black", helvetica, arial, sans-serif;
+  margin-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+h4 {
+  border-bottom: 2px solid #7F7F7F;
+  font-size: 26px;
+  text-align: right;
+
+}
+span {
+  border-bottom: solid 30px #000;
+  display: block;
+  font-size: 36px;
+  line-height: 1.05;
+  padding-bottom: 6px;
+}
+
+div {
+  border-top: 2px solid #7F7F7F;
+  padding: 2px 0 6px;
+}
+
+div:first-child {
+  border-top: none;
+}
+
+section:nth-of-type(2) {
+  border-bottom: 12px solid black;
+}
+
+section:nth-of-type(2) dd:nth-child(3) {
+  margin-top: 6px;
+}
+
+dt,
+section:nth-of-type(3) dd:nth-child(3) {
+  display: inline;
+  font-family: "Helvetica Black", "Arial Black", helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+dd {
+  display: inline;
+}
+
+dd:nth-child(3),
+section:nth-of-type(4) dt+dd {
+  float: right;
+}
+
+dd:last-child:after,
+section:nth-of-type(4) dt+dd:after  {
+  clear: both;
+}
+
+section:nth-of-type(3) dd:nth-child(2) {
+  float: none;
+}
+
+section:nth-of-type(3) div:nth-child(2),
+section:nth-of-type(3) div:nth-child(3),
+section:nth-of-type(3) div:nth-child(7),
+section:nth-of-type(3) div:nth-child(8) {
+  margin-left: 1em;
+}
+
+section:nth-of-type(3) div:nth-child(3),
+section:nth-of-type(3) div:nth-child(6),
+section:nth-of-type(3) div:nth-child(8) {
+  border-bottom: 2px solid #7F7F7F;
+}
+
+section:nth-of-type(3) div:nth-child(2) dt,
+section:nth-of-type(3) div:nth-child(3) dt,
+section:nth-of-type(3) div:nth-child(7) dt,
+section:nth-of-type(3) div:nth-child(8) dt {
+  font: normal 30px helvetica, arial, sans-serif;
+}
+
+section:nth-of-type(3) div:nth-child(4),
+section:nth-of-type(3) div:nth-last-child(3),
+section:nth-of-type(3) div:last-child {
+  border-top: none;
+}
+
+section:nth-of-type(3) div:last-child {
+  padding-bottom: 5px;
+}
+
+section:nth-of-type(4) {
+  border-bottom: 2px solid #7F7F7F;
+  border-top: 30px solid black;
+}
+
+section:nth-of-type(4) dt,
+section:nth-of-type(4) dd {
+  font: normal 32px helvetica, arial, sans-serif;
+}
+
+section:nth-of-type(4) div {
+  padding: 10px 0 0;
+}
+
+/**
+-------------
+Table
+-------------
+**/
+
+table {
+  border-collapse: collapse;
+  font-size: 25px;
+  text-align: left;
+  width: 100%;
+}
+
+caption {
+  margin: 19px 0 3px 16px;
+  text-align: left;
+  text-indent: -16px;
+}
+
+thead tr {
+  border-bottom: 2px solid #7F7F7F;
+}
+
+th {
+  font-weight: normal;
+}
+
+tbody tr:last-of-type th, tr:nth-child(2) th {
+  padding-left: 35px;
+}
